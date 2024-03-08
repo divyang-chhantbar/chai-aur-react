@@ -6,7 +6,7 @@ import ThemeBtn from './componets/Themebtn'
 import Cards from './componets/Cards'
 
 function App() {
-  const [themeMode, setThemeMode] = useState("light")
+  const [themeMode, setThemeMode] = useState("dark")
 
   const lightTheme = () => {
     setThemeMode("light")
